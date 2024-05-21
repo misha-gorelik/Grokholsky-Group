@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+    color: black;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background: linear-gradient(18deg, rgba(255,206,111,0.8) 0%, rgba(183,216,255,1) 26%, rgba(255,255,255,1) 75%, rgba(157,111,255,0.8) 100%); */
+    background: url(./img/BG.png);
+    background-size: cover; 
+    min-height: 100vh;
+
+}
+  .header {
+    margin-top: 50px;
+}
+.container {
+    max-width: 1450px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo {
+    width: 200px;
+    display: block;
+}
+.header__title {
+    display:block;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    text-align: center;
+}
+
+.main__container {
+    margin-top: 50px;
+}
+.service__wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+}
+.service__item {
+    background: linear-gradient(324deg, rgba(255,255,255,0.79) 0%, rgba(255,255,255,0.50) 100%);
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.service__item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+
+.icon {
+    height: 75px;
+    /* margin-bottom: 20px; */
+    display: block;
+}
+.service__title {
+    display: block;
+    text-align: center;
+    font-family: "Cuprum", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 30px;
+}
+.footer {
+}
+.footer__copyright {
+    text-align: center;
+    padding: 30px;
+    font-family: "Cuprum", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 20px;
+}
